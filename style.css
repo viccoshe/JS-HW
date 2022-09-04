@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.todo-container {
+    max-width: 300px;
+    width: 100%;
+    max-height: 400px;
+    height: 700px;
+    border: 2px solid #ededed;
+    border-radius: 30px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.todo__header {
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.todo__header .todo__title {
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+    font-weight: 600;
+}
+
+
+.todo-container .input {
+    padding: 10px;
+    margin: 10px 5px 10px 10px;
+    width: 200px;
+    border: 1px solid #bfbfbf;
+    border-radius: 30px;
+    background-color: #f5f5f5;
+}
+
+.todo-container .input:hover {
+    background-color: rgba(222, 184, 135, 0.323);
+}
+
+
+
+.todo-container .add {
+    padding: 10px;
+    width: 50px;
+    border: 1px solid rgba(153, 208, 210, 0.688);
+    border-radius: 30px;
+    background-color: rgba(161, 216, 218, 0.327);
+}
+
+.todo-container .add:hover {
+    border: 1px solid rgba(153, 208, 210, 0.826);
+    border-radius: 30px;
+    background-color: #f5f5f5;
+    background-color: rgba(161, 216, 218, 0.663);
+}
+
+.todo-container input::placeholder {
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.todo-container .save {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 50px;
+    border: 1px solid rgba(181, 136, 11, 0.3);
+    border-radius: 30px;
+    background-color: #f5f5f5;
+    background-color: rgba(195, 158, 37, 0.104);
+}
+
+.todo-container .save:hover {
+    border: 1px solid rgba(181, 136, 11, 0.499);
+    background-color: rgba(195, 158, 37, 0.278);
+}
+
+.todo-container .clear {
+    border: 1px solid rgba(87, 0, 0, 0.19);
+    background-color: rgba(181, 9, 9, 0.096);
+    font-family: monospace;
+    width: 200px;
+    padding: 5px;
+
+    border-radius: 30px;
+    position: absolute;
+    top: 90%;
+    left: 17%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.todo-container .clear:hover {
+    border: 1px solid rgba(87, 0, 0, 0.358);
+    background-color: rgba(181, 9, 9, 0.181);
+    color: rgb(183, 2, 2);
+}
+.remove-item {
+    padding: 5px;
+    margin-left: 5px;
+    width: 70px;
+    border-radius: 30px;
+    background-color: #f5f5f5;
+    border: 1px solid rgba(87, 0, 0, 0.19);
+    background-color: rgba(181, 9, 9, 0.096);
+}
+
+.remove-item:hover {
+    border: 1px solid rgba(87, 0, 0, 0.358);
+    background-color: rgba(181, 9, 9, 0.181);
+    color: rgb(183, 2, 2);
+}
+
+li{
+    margin: 10px 10px;
+}
+
+li input {
+    margin-right: 5px;
+
+}
+
+span {
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: #bcbcbc;
+
+}
+
+li {
+    list-style: none;
+}
