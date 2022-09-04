@@ -4,28 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HW 9 - TO DO LIST</title>
+    <title>Tabs</title>
     <link rel="stylesheet" href="style.css">
-    <script src="scripts.js"></script>
-    
+    <script defer src="scripts.js"></script>
 </head>
 <body>
-    <div class="todo-container">
+    <div class="tabs-container">
 
-        <div class="todo__header">
-            <span class="todo__title">TO DO LIST</span>
-        </div>
+        <ul class="tabs">
+            <li class="tab active" data-tab="1">Показать все</li>
+            <li class="tab" data-tab="2">Природа</li>
+            <li class="tab" data-tab="3">Автомобили</li>
+            <li class="tab" data-tab="4">Люди</li>
+        </ul>
 
-        <form action="">
-            <input class="input" type="text" placeholder="Type your task">
-            <button class = "add" type="submit">Add</button>
-        </form>
+
+        <ul class="tab-contents">
+
+            <li class="content active" data-tab="1">
+                <div class="gallery-wrapper">
+                    <div class="block-wrapper">
+                        <div class="photo"><img class="img" src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Mountains</div>
+                        <div class="subtext">Lorem ipsum dolor..</div>
+                    </div>
+                    <div class="block-wrapper">
+                        <div class="photo"><img src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Lights</div>
+                        <div class="subtext">Lorem ipsum dolor..</div>
+                    </div>
+                    <div class="block-wrapper">
+                        <div class="photo"><img src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Forest</div>
+                        <div class="subtext">Lorem ipsum dolor..</div>
+                    </div>
+                    <div class="block-wrapper">
+                        <div class="photo"><img src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Retro</div>
+                        <div class="subtext">Lorem ipsum dolor.</div>
+                    </div>
+                    <div class="block-wrapper">
+                        <div class="photo"><img src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Fast</div>
+                        <div class="subtext">Lorem ipsum dolor..</div>
+                    </div>
+                    <div class="block-wrapper">
+                        <div class="photo"><img src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Classic</div>
+                        <div class="subtext">Lorem ipsum dolor..</div>
+                    </div>
+                    <div class="block-wrapper">
+                        <div class="photo"><img src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Girl</div>
+                        <div class="subtext">Lorem ipsum dolor..</div>
+                    </div>
+                    <div class="block-wrapper">
+                        <div class="photo"><img src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Man</div>
+                        <div class="subtext">Lorem ipsum dolor..</div>
+                    </div>
+                    <div class="block-wrapper">
+                        <div class="photo"><img src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Woman</div>
+                        <div class="subtext">Lorem ipsum dolor..</div>
+                    </div>
+                </div>
+            </li>
+
+
+            <li class="content" data-tab="2">
+                <div class="gallery-wrapper">
+                    <div class="block-wrapper">
+                        <div class="photo"><img class="img" src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Mountains</div>
+                        <div class="subtext">Lorem ipsum dolor..</div>
+                    </div>
+                    <div class="block-wrapper">
+                        <div class="photo"><img src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Lorem ipsum dolor..</div>
+                        <div class="subtext"></div>
+                    </div>
+                    <div class="block-wrapper">
+                        <div class="photo"><img src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Lorem ipsum dolor..</div>
+                        <div class="subtext"></div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="content" data-tab="3">
+                <div class="gallery-wrapper">
+                    <div class="block-wrapper">
+                        <div class="photo"><img class="img" src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Mountains</div>
+                        <div class="subtext">Lorem ipsum dolor..</div>
+                    </div>
+                    <div class="block-wrapper">
+                        <div class="photo"><img src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Lorem ipsum dolor..</div>
+                        <div class="subtext"></div>
+                    </div>
+                    <div class="block-wrapper">
+                        <div class="photo"><img src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Lorem ipsum dolor..</div>
+                        <div class="subtext"></div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="content" data-tab="4">
+                <div class="gallery-wrapper">
+                    <div class="block-wrapper">
+                        <div class="photo"><img class="img" src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Mountains</div>
+                        <div class="subtext">Lorem ipsum dolor..</div>
+                    </div>
+                    <div class="block-wrapper">
+                        <div class="photo"><img src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Lorem ipsum dolor..</div>
+                        <div class="subtext"></div>
+                    </div>
+                    <div class="block-wrapper">
+                        <div class="photo"><img src="people1.jpg" alt="ppl"></div>
+                        <div class="title">Lorem ipsum dolor..</div>
+                        <div class="subtext"></div>
+                    </div>
+                </div>
+            </li>
         
-        <div class="todo"></div>
-        <button class="save">Save</button>
-        <button class="clear">DELETE ALL</button>
-        
+            
+        </ul>
+
+       
     </div>
+
 
     
 </body>
